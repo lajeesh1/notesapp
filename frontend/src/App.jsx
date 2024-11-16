@@ -1,3 +1,4 @@
+import Signup from "./pages/signup"
 
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <div >
-   <h1 className="bg-green-400">
-      Hello world!
-    </h1>
+   <Signup/>
     </div>
   )
 }
